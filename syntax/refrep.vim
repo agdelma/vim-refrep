@@ -5,13 +5,13 @@ endif
 syntax keyword refrepKeyword Strengths[:] Weaknesses[:]
 highlight link refrepKeyword Keyword 
 
-syntax match refrepStrength "\v\+.*$"
+syntax match refrepStrength "\v^\+.*$"
 highlight refrepStrength guifg=#0CC875
 
-syntax match refrepWeakness "\v-.*$"
+syntax match refrepWeakness "\v^-.*$"
 highlight refrepWeakness guifg=#d94853
 
-syntax match refrepComment "\v\*.*$"
+syntax match refrepComment "\v^\*.*$"
 highlight link refrepComment Comment
 
 echom "Our syntax highlighting code will go here."
