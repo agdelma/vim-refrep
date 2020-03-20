@@ -12,7 +12,7 @@ syntax match refrepWeakness "\v^-.*$"
 highlight refrepWeakness guifg=#d94853
 
 syntax match refrepComment "\v^\*.*$"
-highlight link refrepComment Comment
+highlight refrepComment guifg=#fdbe6f
 
 echom "Our syntax highlighting code will go here."
 
