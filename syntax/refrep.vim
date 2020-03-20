@@ -6,10 +6,10 @@ syntax keyword refrepKeyword Strengths[:] Weaknesses[:]
 highlight link refrepKeyword Keyword 
 
 syntax match refrepStrength "\v\+.*$"
-highlight link refrepStrength guifg=#0CC875
+highlight refrepStrength guifg=#0CC875
 
 syntax match refrepWeakness "\v-.*$"
-highlight link refrepWeakness guifg=#d94853
+highlight refrepWeakness guifg=#d94853
 
 syntax match refrepComment "\v\*.*$"
 highlight link refrepComment Comment
