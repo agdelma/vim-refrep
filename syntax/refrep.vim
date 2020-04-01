@@ -3,6 +3,9 @@ if exists("b:current_syntax")
 endif
 
 syntax keyword refrepKeyword Strengths[:] Weaknesses[:]
+syntax match refrepKeyword "Data Management Plan"
+syntax match refrepKeyword "Suggestions for improvement"
+
 highlight link refrepKeyword Keyword 
 
 " Strengths are green
