@@ -5,6 +5,8 @@ endif
 syntax keyword refrepKeyword Strengths[:] Weaknesses[:]
 syntax match refrepKeyword "Data Management Plan"
 syntax match refrepKeyword "Suggestions for improvement"
+syntax match refrepKeyword "Specific Comments"
+syntax match refrepKeyword "Main Findings"
 
 highlight link refrepKeyword Keyword 
 
