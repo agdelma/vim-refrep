@@ -2,7 +2,7 @@ if exists("b:current_syntax")
     finish
 endif
 
-syntax keyword refrepKeyword Strengths[:] Weaknesses[:]
+syntax keyword refrepKeyword Strengths[:] Weaknesses[:] Questions[:]
 syntax match refrepKeyword "Data Management Plan"
 syntax match refrepKeyword "Suggestions for improvement"
 syntax match refrepKeyword "Specific Comments"
